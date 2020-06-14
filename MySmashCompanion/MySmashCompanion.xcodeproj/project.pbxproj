@@ -57,6 +57,7 @@
 				EBA334562472FE8A00489E47 /* Models */,
 				EBA334552472FE8400489E47 /* Controllers */,
 				EBA334542472FE7C00489E47 /* Views */,
+				EBC00FFC2495C34B00DE3CEE /* Firebase */,
 				EBA334532472FE6400489E47 /* Resources */,
 			);
 			path = MySmashCompanion;
@@ -102,6 +103,13 @@
 				EBA3344A2472FE1A00489E47 /* LaunchScreen.storyboard */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		EBC00FFC2495C34B00DE3CEE /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Firebase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
