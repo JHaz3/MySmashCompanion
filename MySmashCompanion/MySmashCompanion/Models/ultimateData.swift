@@ -7,4 +7,36 @@
 //
 
 import Foundation
-
+struct CharacterMoves: Decodable {
+    let searchTerm: String
+}
+struct BackAir: Decodable {
+    
+}
+struct BackThrow {
+    
+}
+struct DashAttack {
+    
+}
+struct DashGrab {
+    
+}
+struct DownAir {
+    
+}
+struct DownSpecial {
+    
+}
+struct DownSmash {
+    
+}
+struct DownThrow {
+    
+}
+struct DownTilt {
+    
+}
+struct ForwardAir {
+    
+}
