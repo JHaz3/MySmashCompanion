@@ -46,5 +46,6 @@ class CharacterController {
         }.resume()
     }
     // TODO: Add fetchGIF OR fetchImage func
+    // how will we fetch the gifs from each move for each character dynamically? will one work if we call it in each move using dot syntax?
     
 }// End of Class
