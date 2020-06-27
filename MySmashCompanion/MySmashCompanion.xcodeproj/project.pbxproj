@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EB24A07324A5C34500105B2A /* CharacterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB24A07224A5C34500105B2A /* CharacterController.swift */; };
+		EB24A07624A7174100105B2A /* CharacterDataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB24A07524A7174100105B2A /* CharacterDataError.swift */; };
 		EBA334402472FE1900489E47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA3343F2472FE1900489E47 /* AppDelegate.swift */; };
 		EBA334422472FE1900489E47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA334412472FE1900489E47 /* SceneDelegate.swift */; };
 		EBA334472472FE1900489E47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBA334452472FE1900489E47 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		EB24A07224A5C34500105B2A /* CharacterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterController.swift; sourceTree = "<group>"; };
+		EB24A07524A7174100105B2A /* CharacterDataError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDataError.swift; sourceTree = "<group>"; };
 		EBA3343C2472FE1900489E47 /* MySmashCompanion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySmashCompanion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA3343F2472FE1900489E47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBA334412472FE1900489E47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB24A07424A7171C00105B2A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EB24A07524A7174100105B2A /* CharacterDataError.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		EBA334332472FE1900489E47 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +72,7 @@
 				EBA334552472FE8400489E47 /* Controllers */,
 				EBA334542472FE7C00489E47 /* Views */,
 				EBC00FFC2495C34B00DE3CEE /* Firebase */,
+				EB24A07424A7171C00105B2A /* Helpers */,
 				EBA334532472FE6400489E47 /* Resources */,
 			);
 			path = MySmashCompanion;
@@ -190,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBA334402472FE1900489E47 /* AppDelegate.swift in Sources */,
+				EB24A07624A7174100105B2A /* CharacterDataError.swift in Sources */,
 				EB24A07324A5C34500105B2A /* CharacterController.swift in Sources */,
 				EBA334422472FE1900489E47 /* SceneDelegate.swift in Sources */,
 				EBC00FFE2495EA1400DE3CEE /* CharacterData.swift in Sources */,

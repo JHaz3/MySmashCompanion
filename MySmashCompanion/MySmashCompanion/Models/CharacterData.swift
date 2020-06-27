@@ -7,7 +7,7 @@
 //
 
 import Foundation
-private struct CharacterMoves: Decodable {
+struct CharacterData: Decodable {
     
     struct BackAir: Decodable {
         let activeFrames: String
