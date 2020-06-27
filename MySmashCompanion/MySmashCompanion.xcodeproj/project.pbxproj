@@ -41,12 +41,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EB24A07424A7171C00105B2A /* Helpers */ = {
+		EB24A07424A7171C00105B2A /* Helper+Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				EB24A07524A7174100105B2A /* CharacterDataError.swift */,
 			);
-			path = Helpers;
+			path = "Helper+Extensions";
 			sourceTree = "<group>";
 		};
 		EBA334332472FE1900489E47 = {
@@ -72,7 +72,7 @@
 				EBA334552472FE8400489E47 /* Controllers */,
 				EBA334542472FE7C00489E47 /* Views */,
 				EBC00FFC2495C34B00DE3CEE /* Firebase */,
-				EB24A07424A7171C00105B2A /* Helpers */,
+				EB24A07424A7171C00105B2A /* Helper+Extensions */,
 				EBA334532472FE6400489E47 /* Resources */,
 			);
 			path = MySmashCompanion;
@@ -92,7 +92,7 @@
 		EBA334542472FE7C00489E47 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				EBA334572472FE9800489E47 /* UI */,
+				EBA334572472FE9800489E47 /* Storyboards */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -113,13 +113,13 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		EBA334572472FE9800489E47 /* UI */ = {
+		EBA334572472FE9800489E47 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
 				EBA334452472FE1900489E47 /* Main.storyboard */,
 				EBA3344A2472FE1A00489E47 /* LaunchScreen.storyboard */,
 			);
-			path = UI;
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		EBC00FFC2495C34B00DE3CEE /* Firebase */ = {
