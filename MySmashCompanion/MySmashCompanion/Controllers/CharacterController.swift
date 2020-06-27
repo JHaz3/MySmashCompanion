@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+class CharacterController {
+    // MARK: - Properties
+    static private let baseURL = URL(string: "https://smash-utlimate-python-api.herokuapp.com/")
+    static private let searchTerm = ""
+}
